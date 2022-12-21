@@ -17,7 +17,7 @@ def email_alert(subject, body, to):
 
     user = "Pikachu0304xd@gmail.com"
     msg['from'] = user
-    password = "kismreeqtucjsdik"
+    password = "password"
     
     for file in files:
         with open(file, 'rb') as f:
